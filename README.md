@@ -37,3 +37,14 @@ pnpm build
 ```sh
 pnpm lint
 ```
+# 使用手册
+```sh
+pnpm add -D @vueuse/core
+```
+```sh
+<CountTo
+   :prefix="item.unit"          // 值前缀（例 ￥）
+   :start-value="1"             // 开始值
+   :end-value="item.value"      // 结束值
+ />
+```
